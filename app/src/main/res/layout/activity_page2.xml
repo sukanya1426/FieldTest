@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address Details"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/streetAddressEditText"
+            android:layout_width="match_parent"
+            android:background="@drawable/editbox_background"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your street address" />
+
+        <EditText
+            android:id="@+id/cityEditText"
+            android:layout_width="match_parent"
+
+            android:background="@drawable/editbox_background"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name of your city" />
+
+        <EditText
+            android:id="@+id/stateEditText"
+            android:layout_width="match_parent"
+
+            android:background="@drawable/editbox_background"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name of your state" />
+
+        <EditText
+            android:id="@+id/postalCodeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/editbox_background"
+            android:layout_marginTop="16dp"
+            android:hint="Enter your postal code"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/countryEditText"
+
+            android:background="@drawable/editbox_background"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your country name" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
